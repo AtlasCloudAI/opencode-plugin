@@ -1,0 +1,39 @@
+# Source files (dist is published)
+src/
+tsconfig.json
+
+# Development files
+scripts/
+Dockerfile
+docker-compose.yml
+Makefile
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+coverage/
+
+# Misc
+*.md
+!README.md
