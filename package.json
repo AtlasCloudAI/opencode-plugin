@@ -1,12 +1,12 @@
 {
-  "name": "@atlascloud/opencode-plugin",
-  "version": "1.0.0",
+  "name": "@atlascloudai/opencode",
+  "version": "1.0.1",
   "description": "OpenCode plugin for Atlas Cloud - Access 100+ AI models including GPT-4o, Claude, Gemini, DeepSeek via OpenAI-compatible API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "bin": {
-    "atlascloud-opencode-plugin": "./bin/setup.cjs"
+    "atlascloudai-opencode": "./bin/setup.cjs"
   },
   "scripts": {
     "build": "tsc",

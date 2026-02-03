@@ -7,15 +7,15 @@ An [OpenCode](https://opencode.ai) plugin that integrates [Atlas Cloud's](https:
 ### 1. Install and register the plugin
 
 ```bash
-npx @atlascloud/opencode-plugin
+npx @atlascloudai/opencode
 ```
 
 This downloads the plugin and registers it with OpenCode.
 
 **Alternative: Global install**
 ```bash
-npm install -g @atlascloud/opencode-plugin
-atlascloud-opencode-plugin
+npm install -g @atlascloudai/opencode
+atlascloudai-opencode
 ```
 
 ### 3. Start OpenCode and connect
@@ -148,7 +148,7 @@ opencode              # Start OpenCode
 
 ### Plugin not loading
 
-1. Run `npx @atlascloud/opencode-plugin` to re-register
+1. Run `npx @atlascloudai/opencode` to re-register
 2. Check `~/.config/opencode/opencode.json` has the plugin listed
 
 ### Debug mode
