@@ -18,19 +18,19 @@ npm install -g @atlascloudai/opencode
 atlascloudai-opencode
 ```
 
-### 3. Start OpenCode and connect
+### 2. Start OpenCode and connect
 
 ```bash
 opencode
 ```
 
-Then connect with your Atlas Cloud API key:
+Then connect to Atlas Cloud:
 
-```
-/connect atlascloud YOUR_API_KEY
-```
+1. Run `/connect`
+2. Select **Atlas Cloud** from the provider list
+3. Enter your API key when prompted
 
-### 4. Restart OpenCode to load models
+### 3. Restart OpenCode to load models
 
 Exit and restart OpenCode. Your Atlas Cloud models will now be available via `/models`.
 
@@ -38,23 +38,22 @@ Exit and restart OpenCode. Your Atlas Cloud models will now be available via `/m
 
 | Command | Description |
 |---------|-------------|
-| `/connect atlascloud <api_key>` | Connect with your API key |
-| `/atlascloud status` | Check connection status |
-| `/atlascloud disconnect` | Remove your API key |
+| `/connect` | Open provider selection to connect |
+| `/models` | List available models |
 
 ## Available Models
 
 The plugin dynamically fetches all available models from Atlas Cloud. Popular models include:
 
-**OpenAI**: GPT-4o, GPT-4o Mini, GPT-4.1, GPT-5, O1, O3, O3 Mini
-
-**Anthropic**: Claude Sonnet 4.5, Claude Opus 4.5, Claude Haiku 4.5
-
-**Google**: Gemini 2.5 Flash, Gemini 2.5 Pro, Gemini 3 Flash Preview
-
-**DeepSeek**: DeepSeek V3.1, DeepSeek V3.2, DeepSeek R1
-
-**xAI**: Grok 4
+- GPT-4o, GPT-4o Mini, GPT-4.1, O1, O3
+- Claude Sonnet 4.5, Claude Opus 4.5
+- Gemini 2.5 Flash, Gemini 2.5 Pro
+- DeepSeek V3.2, DeepSeek R1
+- Kimi K2.5
+- GLM 4.7
+- MiniMax M2.1
+- Qwen 3 Max
+- Grok 4
 
 And many more...
 
@@ -95,7 +94,7 @@ export ATLASCLOUD_API_KEY=your-api-key
 
 ```bash
 # Clone the repository
-git clone https://github.com/atlascloud/opencode-plugin.git
+git clone https://github.com/AtlasCloudAI/opencode-plugin.git
 cd opencode-plugin
 
 # Install dependencies
@@ -137,14 +136,14 @@ opencode              # Start OpenCode
 
 ### Models not showing up
 
-1. Ensure you've run `/connect atlascloud <api_key>` with a valid key
+1. Ensure you've run `/connect` and selected Atlas Cloud with a valid key
 2. **Restart OpenCode** after connecting (required to load models)
-3. Check status with `/atlascloud status`
+3. Try `/models` to see if Atlas Cloud models appear
 
 ### Invalid API key error
 
 1. Verify your key at [Atlas Cloud dashboard](https://atlascloud.ai)
-2. Reconnect with `/connect atlascloud <new_key>`
+2. Run `/connect` again and re-enter your key
 
 ### Plugin not loading
 
@@ -188,4 +187,4 @@ MIT
 
 - [Atlas Cloud](https://atlascloud.ai)
 - [OpenCode](https://opencode.ai)
-- [Report Issues](https://github.com/atlascloud/opencode-plugin/issues)
+- [Report Issues](https://github.com/AtlasCloudAI/opencode-plugin/issues)
