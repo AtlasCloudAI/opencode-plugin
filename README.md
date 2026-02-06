@@ -1,6 +1,6 @@
 # Atlas Cloud Plugin for OpenCode
 
-An [OpenCode](https://opencode.ai) plugin that integrates [Atlas Cloud's](https://atlascloud.ai) OpenAI-compatible API, giving you access to 100+ AI models including GPT-4o, Claude, Gemini, DeepSeek, and more.
+An [OpenCode](https://opencode.ai) plugin that integrates [Atlas Cloud's](https://atlascloud.ai?utm_source=github&utm_medium=readme&utm_campaign=opencode-plugin) OpenAI-compatible API, giving you access to 100+ AI models including GPT-4o, Claude, Gemini, DeepSeek, and more.
 
 ## Quick Start
 
@@ -142,7 +142,7 @@ opencode              # Start OpenCode
 
 ### Invalid API key error
 
-1. Verify your key at [Atlas Cloud dashboard](https://atlascloud.ai)
+1. Verify your key at [Atlas Cloud dashboard](https://atlascloud.ai?utm_source=github&utm_medium=readme&utm_campaign=opencode-plugin)
 2. Run `/connect` again and re-enter your key
 
 ### Plugin not loading
@@ -185,6 +185,6 @@ MIT
 
 ## Links
 
-- [Atlas Cloud](https://atlascloud.ai)
+- [Atlas Cloud](https://atlascloud.ai?utm_source=github&utm_medium=readme&utm_campaign=opencode-plugin)
 - [OpenCode](https://opencode.ai)
 - [Report Issues](https://github.com/AtlasCloudAI/opencode-plugin/issues)
